@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --primary: #FF6B00;
+  --secondary: #FF8C00;
+  --accent: #FFA94D;
+  --light: #FFF4E6;
+  --card: #FFFFFF;
+  --text: #1F2937;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--light);
+  font-family: 'Poppins', sans-serif;
+  color: var(--text);
+}
+
+/* Optional App container */
+.App {
+  min-height: 100vh;
+}
